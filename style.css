@@ -1,0 +1,98 @@
+body {
+    color: azure;
+  display: block;
+  margin: 10px;
+  padding: 10px;
+background-image: url(https://res.cloudinary.com/mideveloper/image/upload/v1566925692/FCC_banner_gzr45z.jpg);
+background-size: cover;
+/* background-repeat: no-repeat; */
+  font-family: "Roboto", sans-serif;
+}
+h1 {
+  font-family: "Fjalla One", sans-serif;
+  text-align: center;
+}
+
+#description {
+  font-family: "Electrolize", sans-serif;
+  font-size: 18px;
+color: whitesmoke;
+  text-align: center;
+  padding: 5px 0;
+}
+.survey-form {
+  display: inline-block;
+  width: 50%;
+  margin: 20px;
+  position: relative;
+  left: 250px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5px 20px 5px 20px;
+}
+
+#survey-form {
+  padding: 0;
+}
+
+.form-group {
+  padding: 5px;
+}
+
+.form-group label {
+  display: block;
+  padding: 5px;
+  float: left;
+  font-size: 18px;
+  font-weight: bold;
+  color: whitesmoke;
+}
+input{
+    background: rgba(255, 255, 255, .5);
+    border: none;
+}
+.form-group input[class="label"] {
+  padding: 5px;
+  width: 100%;
+}
+
+.just{
+    margin: 10px;
+    padd
+}
+.form-group ul {
+  margin: 15px;
+  padding: 5px;
+}
+.form-group li {
+  display: inline-lock;
+  list-style: none;
+  padding: 2px;
+  text-align: left;
+  margin: 10px 0 10px 0;
+}
+#survey-form textarea {
+  width: 80%;
+  padding: 8px;
+}
+.form-group select {
+  margin: 5px;
+  padding: 10px;
+  font-size: 16px;
+  float: left;
+}
+#submit {
+  padding: 10px;
+  background: burlywood;
+  font-size: 18px;
+  color: black;
+  font-weight: bold;
+  border: 0px;
+}
+
+#submit:hover {
+  background: goldenrod;
+  color: white;
+}
+#check{
+    display: block;
+}
